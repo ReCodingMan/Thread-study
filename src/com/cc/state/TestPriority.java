@@ -27,6 +27,7 @@ public class TestPriority {
         t3.start();
 
         t4.setPriority(Thread.MAX_PRIORITY);
+        t4.start();
 
 //        t5.setPriority(-1);
 //        t5.start();
